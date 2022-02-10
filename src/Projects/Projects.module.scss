@@ -1,24 +1,19 @@
-.projectsBlock{
-    background-color: #1f1f20;
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
-}
-.projectsContainer{
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.projects{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    align-items: flex-start;
-
-}
-@media screen and (max-width: 1129px){
-    .projects{
+.projectsBlock {
+  padding: 100px 0;
+  .container {
+   @include container();
+    @include flex(column, flex-start, stretch, nowrap);
+    .projects {
+      @include flex(row, space-between, flex-start, wrap);
+      @media screen and (max-width: 1127px) {
         justify-content: center;
+      }
     }
+  }
 }
+
+
 

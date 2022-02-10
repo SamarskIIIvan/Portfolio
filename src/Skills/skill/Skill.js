@@ -1,16 +1,17 @@
 import React from "react";
-import style from './Skill.module.css'
+import style from './Skill.module.scss'
+import Fade from 'react-reveal/Fade';
 
 function Skill(props) {
     return (
         <div className = {style.skill}>
-        <div className = {style.icon}></div>
-            <h3>
+            <Fade>
+        <div className = {style.icon} style={props.stile} />
+            <div/>
+            <h3 className={style.skillTitle}>
                 {props.title}
             </h3>
-            <span className = {style.description}>
-                {props.description}
-            </span>
+            </Fade>
         </div>
     );
 }

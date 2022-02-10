@@ -1,22 +1,23 @@
+@import '../common/styles/sass/mixins';
+@import '../common/styles/sass/variables';
+@import '../common/components/Button/Button.module';
 
 
 .hireBlock {
-    background-color: blue;
+    .container {
+        height: 140px;
+        @include container();
+        @include flex(column, flex-start, center, nowrap);
+        button[type='submit'] {
+            @extend .btn;
+            align-self: center;
+            background-color: transparent;
+            margin-top: 30px;
+        }
+
+    }
 
 }
 
-.hireContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.title {
-    background-color: brown;
-}
 
-.hireBtn {
-    padding: 10px 20px;
-    background-color: peachpuff;
-
-}

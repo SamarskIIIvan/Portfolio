@@ -1,17 +1,17 @@
 import React from "react";
-import style from "./Project.module.css"
+import style from "./Project.module.scss"
+import {Button} from "../../common/components/Button/Button";
 
-export function Projects(){
+export function Project(props){
     return(
-        <div className={style.projectsBlock}>
-          <div className={`${styleContainer.container} & {style.projectsContainer}`} >
-             <h2 className={style.title}>Projects</h2>
-              <div className={style.projects}>
-                  
-
-              </div>
-          </div>
-
+        <div className={style.project}>
+         <div className={style.image} style={props.style}>
+             <Button title={'VIEW'} a ={props.a} />
+         </div>
+            <div className={style.projectInfo}>
+                <h3 className={style.projectTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
+            </div>
         </div>
     )
 }

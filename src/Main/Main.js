@@ -1,35 +1,31 @@
 import React from "react";
 import style from './Main.module.scss'
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt'
 
-const particleOpt = {
-    "particles": {
-        "number": {
-            "value": 100
-        },
-        "size": {
-            "value": 3
-        }
-    },
-    "interactivity": {
-        "events": {
-            "onhover": {
-                "enable": true,
-            }
-        }
-    }
-};
 
 export function Main() {
     return (
-        <div id={"main"}
-            className={style.mainBlock}>
-            <Particles
-                className={style.particles}
-                params={particleOpt}
+        <div id={"main"} className={style.mainBlock}>
+            <Particles className={style.particles}
+                       params={{
+                           fpsLimit: 100,
+                           particles: {
+                               color: {
+                                   value: "#fff"
+                               },
+                               links: {
+                                   enable: true,
+                                   color: "#fff",
+                                   distance: 150
+                               },
+                               move: {
+                                   enable: true
+                               }
+                           }
+                       }}
             />
             <Fade top>
                 <div className={style.container}>
@@ -47,6 +43,7 @@ export function Main() {
                 </div>
             </Fade>
         </div>
+
     );
 }
 

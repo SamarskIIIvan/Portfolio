@@ -3,8 +3,11 @@
 
 .App{
     > div {
-        &:nth-child(n) {
-        background-color:;
+        &:nth-child(n) { //нечетные дивки
+        background-color:$bgSecondColor;
          }
+      &:nth-child(2n) {  //четные дивки
+        background-color:$bgColor;
+      }
     }
 }
