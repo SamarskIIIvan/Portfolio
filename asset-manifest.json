@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d8d8f55b.chunk.css",
+    "main.js": "/Portfolio/static/js/main.edbc31be.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.edbc31be.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.96954f16.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.96954f16.js.map",
+    "static/js/2.2c6422db.chunk.js": "/Portfolio/static/js/2.2c6422db.chunk.js",
+    "static/js/2.2c6422db.chunk.js.map": "/Portfolio/static/js/2.2c6422db.chunk.js.map",
+    "static/js/3.3fe5d11d.chunk.js": "/Portfolio/static/js/3.3fe5d11d.chunk.js",
+    "static/js/3.3fe5d11d.chunk.js.map": "/Portfolio/static/js/3.3fe5d11d.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.d8d8f55b.chunk.css.map": "/Portfolio/static/css/main.d8d8f55b.chunk.css.map",
+    "static/js/2.2c6422db.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2c6422db.chunk.js.LICENSE.txt",
+    "static/media/Main.module.scss": "/Portfolio/static/media/IMG_0364.d0370aad.jpg",
+    "static/media/React.e68b35f4.svg": "/Portfolio/static/media/React.e68b35f4.svg",
+    "static/media/icons8-aplicación-telegrama.b0589b5e.svg": "/Portfolio/static/media/icons8-aplicación-telegrama.b0589b5e.svg",
+    "static/media/icons8-css3.3ec32022.svg": "/Portfolio/static/media/icons8-css3.3ec32022.svg",
+    "static/media/icons8-html-5.c1bb84e0.svg": "/Portfolio/static/media/icons8-html-5.c1bb84e0.svg",
+    "static/media/icons8-javascript.081325c6.svg": "/Portfolio/static/media/icons8-javascript.081325c6.svg",
+    "static/media/icons8-linkedin.ada11cda.svg": "/Portfolio/static/media/icons8-linkedin.ada11cda.svg",
+    "static/media/icons8-redux.0a4a6ca2.svg": "/Portfolio/static/media/icons8-redux.0a4a6ca2.svg",
+    "static/media/icons8-typescript.f20748ca.svg": "/Portfolio/static/media/icons8-typescript.f20748ca.svg",
+    "static/media/icons8-whatsapp.7dc3f326.svg": "/Portfolio/static/media/icons8-whatsapp.7dc3f326.svg",
+    "static/media/orig-66-1633998280.60d43436.jpeg": "/Portfolio/static/media/orig-66-1633998280.60d43436.jpeg",
+    "static/media/samarskaia.0ad028fc.PNG": "/Portfolio/static/media/samarskaia.0ad028fc.PNG",
+    "static/media/social-network.634cbc88.png": "/Portfolio/static/media/social-network.634cbc88.png",
+    "static/media/todolistImages.c66dc123.png": "/Portfolio/static/media/todolistImages.c66dc123.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96954f16.js",
+    "static/js/2.2c6422db.chunk.js",
+    "static/css/main.d8d8f55b.chunk.css",
+    "static/js/main.edbc31be.chunk.js"
+  ]
+}
